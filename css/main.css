@@ -1,0 +1,263 @@
+/*Body and General Styles*/
+html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+/* Header */
+header {
+	background: #607D8B; /*blue-gray 500 (normal)*/
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+
+.bs {
+	font-size: 4em;
+	font-weight: 400;
+	line-height: 160px;
+	color: #607D8B; /*blue-gray 500 (normal)*/ 
+	background-color: #fff;
+	margin: 50px auto 10px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.logo {
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	margin: 0 auto;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+nav {
+  background: #455a64;  /*blue-gray 700 (darker)*/
+  text-align: center;
+  padding: 8px 0;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+nav li {
+	display: inline-block;
+	padding: 0; /* was 5px left and right*/
+}
+
+.bars{
+	padding: 15px;
+	color: #fff;
+}
+
+nav a, nav a:visited {
+	color: #fff;
+	padding: 15px;
+}
+
+/*nav ul li:hover ul{
+	display: block;
+}*/
+
+.hiddenNav {
+	width: 120px;
+	display: none;
+	position: absolute;
+	margin: 19px 0 0 -72px;
+	background-color: #90a4ae; /*blue-gray 300 (lighter)*/
+	text-align: center;
+}
+
+nav ul ul li {
+	width: 100%;
+	padding: 10px 5px;
+}
+
+nav ul ul li:hover {
+	background-color: #cfd8dc;
+	color: #455a64;
+}
+
+nav ul ul a:visited {
+	color: #fff;
+}
+
+nav ul ul a.selected {
+	color: #455a64;
+}
+
+#home {
+	font-size: 1em;
+	font-weight: normal;
+	line-height: 0;
+	padding: 15px 20px;
+	float: left;
+	top: 0;
+	right: 0;
+}
+
+/* CSS for wrapper and section for home page */
+
+#wrapper {
+	max-width: 940px;
+	margin: 5% auto 15%;
+	padding: 0 5%;
+}
+
+h1 {
+	margin: 2.5% 5%;
+	color: #455a64;
+}
+
+p {
+	margin: 0 5% 5%;
+	font-size: 1em;
+}
+
+p a {
+	color: #607D8B;
+}
+
+p a:visited {
+	color: #607D8B;
+}
+
+p a:hover {
+	color: #e0e0e0;
+}
+
+img {
+	max-width: 100%;
+}
+
+#grid {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#grid li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #e0e0e0;
+	color: #fff;
+	border: 1px #;
+}
+
+#grid li a p {
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+	color: #222;
+}
+
+/*Footer CSS*/
+
+footer {
+	font-size: 1em;
+	text-align: center;
+	padding-top: 25px;
+	color: #ccc;
+	clear: both;
+	width: 100%;
+	background-color: #455a64;
+}
+footer p {
+	margin: 10px 0 0 0;
+	padding-bottom: 1%;
+}
+
+.social-icon {
+	color: #fff;
+	margin: 5px;
+}
+
+.social-icon:visited {
+	color: #fff;
+}
+
+.social-icon:hover {
+	color: #90a4ae;
+}
+
+/*ABOUT PAGE*/
+.profile-pic {
+	display: block;
+	margin: 30px auto;
+	border-radius: 50%;
+	max-width: 150px;
+	border: 5px solid #455a64;
+}
+
+/*Contact Page*/
+ 
+.contact-info {
+	margin: 0;
+	padding: 0 0 0 5%;
+}
+
+.contact-info i {
+	color: #607D8B;
+}
+
+.contact-info a {
+	color: #222;
+	font-size: 1em;
+}
+
+.contact-info a:hover {
+
+}
+
+.contact-info li {
+	margin: 2.5% auto 0;
+}
+
+#mail {
+	padding-right: 10px;
+}
+
+#linkedin {
+	padding-right: 13px;
+}
+
+#phone {
+	padding-right: 18px;
+}
+
+
+
+
+
+
+

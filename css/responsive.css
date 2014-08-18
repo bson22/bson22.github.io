@@ -2,18 +2,13 @@
 
 	#grid li {
 		width: 28.333%;
+		margin: 2.5%;
 	}
 
 	#grid li:nth-child(4n) {
 		clear: left;
 	}
 
-	./*bs {
-		font-size: 5em;
-		width: 150px;
-		height: 150px;
-		line-height: 160px;
-	}*/
 
 	p {
 		font-size: 1.1em;
